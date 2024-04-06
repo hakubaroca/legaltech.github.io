@@ -1,123 +1,67 @@
----
-layout: default
----
+Privacy policy for Chrome extensions developed by roca search team
+Chrome拡張のプライバシーポリシー
+本プライバシーポリシーは、株式会社roca search team（以下、「当開発者」）が開発したGoogleChromeの拡張機能(Extension)(以下、「拡張機能」とします。)の利用において、利用者の個人情報もしくはそれに準ずる情報を取り扱う際に、当開発者が遵守する方針を示したものです。
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+基本方針
+当開発者は、個人情報の重要性を認識し、個人情報を保護することが社会的責務であると考え、個人情報に関する法令を遵守し、拡張機能で取扱う個人情報の取得、利用、管理を適正に行います。
 
-[Link to another page](./another-page.html).
+適用範囲
+本プライバシーポリシーは、当開発者が開発した拡張機能においてのみ適用されます。
 
-There should be whitespace between paragraphs.
+個人情報の取得と利用目的
+当開発者は、個人情報を収集する機能を要した拡張機能を公開しません。 ただし、一部個人情報を利用者のブラウザのLocalStorageに保存します。
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+取得方法
+拡張機能使用中に、アクティブになっているタブのURLを取得します。 取得されたURLは、ブラウザ内のLocalStorageに保存されます。
 
-# Header 1
+利用目的
+ブラウジングの利便性向上
+拡張機能では、機能の内容により、下記の情報を**「ブラウザのLocalStorage」へ保存します**
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+拡張機能で用いる検索履歴
+これにより、拡張機能の利用時に検索URLが自動的に保存されます。これを自社独自のAIモデルに予測データとして活用し、次なる検索を予測します。 この一連のシステムによりユーザーのブラウジングの補助機能を実現、利便性が向上します。 個人情報となる検索履歴は予測のために使用するためであり、当開発者側で保管、利用は一切行いません。
 
-## Header 2
+保存期間について
+拡張機能内でデータの保存場所として、LocalStorageを使用します。 LocalStorageには保存期間が存在しません、しかし直近の検索履歴のみを使用するため古い検索情報は自動的に更新され、削除されます。 そのためデータの保存期間は一定回数の検索回数に達した時または、拡張機能のアンインストール時までとします。
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+個人情報の取り扱いの同意について
+当開発者が開発を行った拡張機能では、拡張機能のインストールを行う前に、当プライバシーポリシーをご一読頂くようにお願いします。 インストールをされた時点で、当プライバシーポリシーに同意されたとみなします。
 
-### Header 3
+利用目的について
+拡張機能の利用者の検索の利便性を向上するために活用します。 ログイン処理や画面遷移を拡張機能から行う際に、Cookieを活用することでユーザーの手間を省いてデータの処理が可能となります。 なお、拡張機能ではプライバシー保護のため、拡張機能の目的とする情報以外のCookieを送信しません。
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+保存期間について
+保存期間は利用者のブラウザーにて設定されているデフォルトの期間保存されます。
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+個人情報の管理
+当開発者は、拡張機能内における個人情報の管理について、以下を徹底します。
 
-#### Header 4
+情報の正確性の確保
+利用者が入力したデータにおいて、常に正しい情報を保持します。
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+安全管理措置
+拡張機能において、情報の漏洩、滅失を防止するために拡張機能内において利用目的外のサーバーへの情報送信を行いません。
 
-##### Header 5
+個人情報の第三者への提供について
+当開発者の開発する拡張機能は、利用者から提供いただいた個人情報を、訪問者本人の同意を得ることなく第三者に提供することはありません。 また、今後第三者提供を行うことになった場合には、提供する情報と提供目的などを提示し、訪問者から同意を得た場合のみ第三者提供を行います。
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+追加事項
+データのセキュリティ対策
+当開発者は、ユーザーの個人情報や検索履歴などのデータを保護するため、通信時のデータの暗号化やプライベートネットに限定したアクセス制御などのセキュリティ対策を実施しています。
 
-###### Header 6
+利用者の権利
+利用者は、個人情報のアクセス、修正、削除などの権利を有します。これらの権利を行使するためには、お問い合わせ先に連絡してください。
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+Cookieの使用に関する情報
+拡張機能では、Cookieを一部利用することがあります。 Cookie（クッキー）とは、ウェブサイトを利用したときに、ブラウザとサーバーとの間で送受信した利用履歴や入力内容などを、訪問者のコンピュータにファイルとして保存しておく仕組みです。
 
-### There's a horizontal rule below this.
+変更通知
+プライバシーポリシーが変更された場合、利用者に通知する方法について説明します。
 
-* * *
+お問い合わせ先
+プライバシーポリシーに関する質問や懸念を提起するためのお問い合わせ先を提供します。
 
-### Here is an unordered list:
+メールアドレス : mitsuki@roca.systems
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+策定日
+令和6年4月7日 策定
